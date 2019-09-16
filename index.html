@@ -18,17 +18,27 @@
         <img src="" alt="Company logo" class="logo__image" />
         <span class="logo__name">Company name</span>
       </div>
-      <li class="menu__list">
-        <li class="menu__item"><a href="" class="menu_link">link 1</a></li>
-        <li class="menu__item"><a href="" class="menu_link">link 2</a></li>
-        <li class="menu__item"><a href="" class="menu_link">link 3</a></li>
-        <li class="menu__item"><a href="" class="menu_link">link 4</a></li>
-      </li>
+      <ul class="menu__list">
+        <li class="menu__item menu__item--is-open">
+          <a href="" class="menu_link">link 1</a>
+        </li>
+        <li class="menu__item">
+          <a href="" class="menu_link">link 2</a>
+        </li>
+        <li class="menu__item">
+          <a href="" class="menu_link">link 3</a>
+        </li>
+        <li class="menu__item">
+          <a href="" class="menu_link">link 4</a>
+        </li>
+      </ul>
     </nav>
     <section class="article page__articles">
       <form class="search" action="/">
-        <input class="search__input" type="text">
-        <button class="button search__button" class="button" type="submit"></button>
+        <input class="search__input" type="text" />
+        <button class="button search__button" type="submit">
+          Search
+        </button>
       </form>
       <article class="article">
         <h1 class="article__title">Article title</h1>
