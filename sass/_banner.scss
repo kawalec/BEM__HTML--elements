@@ -1,0 +1,25 @@
+.banner {
+  background-color: #fff;
+  position: relative;
+  &__image {
+    margin: 40px;
+  }
+  &__title {
+    position: absolute;
+    color: $primary-bg-color;
+    left: 300px;
+    &--large {
+      font-size: 4em;
+      top: 100px;
+    }
+    &--medium {
+      font-size: 2em;
+      top: 250px;
+    }
+  }
+  &__button {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+  }
+}
