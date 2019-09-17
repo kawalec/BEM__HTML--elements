@@ -1,0 +1,48 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  &__search {
+    align-self: flex-end;
+    margin-right: 15px;
+  }
+  &__article {
+  }
+}
+
+.search {
+  &__input {
+    height: 30px;
+  }
+  &__button {
+    height: 30px;
+    &--italic {
+      font-style: italic;
+    }
+  }
+}
+
+.article {
+  margin: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  &__title {
+    font-size: 2.5em;
+  }
+  &__info {
+    color: $secondary-bg-color;
+  }
+  &__publication-date {
+  }
+  &__author {
+    font-style: italic;
+  }
+  &__text {
+    margin: 10px 0;
+    text-align: justify;
+  }
+  &__subheading {
+  }
+  &__button {
+    align-self: flex-end;
+  }
+}
