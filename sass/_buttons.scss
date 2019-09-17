@@ -1,0 +1,13 @@
+.button {
+  padding: 5px 15px;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  &:hover {
+    cursor: pointer;
+  }
+  &--large {
+    padding: 10px 25px;
+    font-size: 1.5em;
+  }
+}
