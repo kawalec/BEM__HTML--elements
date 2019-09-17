@@ -1,0 +1,12 @@
+.footer {
+  height: 60px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  &__copyright-info {
+    width: 20%;
+  }
+  &__address-info {
+  }
+}
